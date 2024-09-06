@@ -19,8 +19,8 @@ const config = {
   masterKey: process.env.MASTER_KEY || 'wallboardapi', //Add your master key here. Keep it secret!
   clientKey: 'wallboardapi',
   javascriptKey: 'wallboardapi',
-  serverURL: 'https://192.168.56.1:' + apiport + '/api', // Don't forget to change to https if needed
-  publicServerURL: 'https://192.168.56.1:' + apiport + '/api',
+  serverURL: 'https://10.21.43.203:' + apiport + '/api', // Don't forget to change to https if needed
+  publicServerURL: 'https://10.21.43.203:' + apiport + '/api',
   liveQuery: {
     classNames: ['OnlineAgentLists', 'WallboardBanners','CallAgentSummaries'], // List of classes to support for query subscriptions
   },
