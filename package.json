@@ -4,7 +4,8 @@
   "description": "",
   "main": "api-wallboard-https.js",
   "scripts": {
-    "start": "node api-wallboard-https.js && node api-dashboard-https.js",
+    "start": "node api-wallboard-https.js",
+
     "lint": "eslint --cache ./cloud && eslint --cache api-wallboard-https.js && eslint --cache ./spec",
     "lint-fix": "eslint --cache --fix ./cloud && eslint --cache --fix api-wallboard-https.js && eslint --cache  --fix./spec",
     "test": "jasmine",
