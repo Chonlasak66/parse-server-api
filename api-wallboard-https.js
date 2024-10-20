@@ -19,8 +19,8 @@ const config = {
   masterKey: process.env.MASTER_KEY || 'wallboardapi', //Add your master key here. Keep it secret!
   clientKey: 'wallboardapi',
   javascriptKey: 'wallboardapi',
-  serverURL: 'https://host.docker.internal:' + apiport + '/api', // Don't forget to change to https if needed
-  publicServerURL: 'https://host.docker.internal:' + apiport + '/api',
+  serverURL: 'https://localhost:' + apiport + '/api', // Don't forget to change to https if needed
+  publicServerURL: 'https://localhost:' + apiport + '/api',
   liveQuery: {
     classNames: ['OnlineAgentLists', 'WallboardBanners','CallAgentSummaries'], // List of classes to support for query subscriptions
   },

@@ -1,0 +1,15 @@
+
+services:
+  wallboard-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.wall
+    ports:
+      - "8505:8505"
+  
+  dashboard-api:
+    build:
+      context: .
+      dockerfile: Dockerfile.dash
+    ports:
+      - "8506:8506"
